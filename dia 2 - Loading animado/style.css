@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background: black;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ring {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 #29d671;
+  background: transparent;
+  animation: animate 1s linear infinite;
+  
+}
+.text {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  color: rgb(166, 219, 223);
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  line-height: 300px;
+  font-size: 4em;
+  background: transparent;
+  box-shadow: 0 0 1rem rgb(122, 64, 124);
+}
+@keyframes animate{
+  0% {
+    transform: rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
