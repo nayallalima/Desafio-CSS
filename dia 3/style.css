@@ -1,0 +1,49 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+section
+{
+    width: 100%;
+    height: 100%;
+    background: #ed07f5;
+    color:#810c9e;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+}
+.wrapper 
+{
+    height: 100%;
+    width: 50%;
+    background: #810c9e;
+    overflow: hidden;
+    color: #ed07f5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 2px solid #0a0a0a;
+}
+.sliding 
+{
+    position: absolute;
+    top: 50%;
+    white-space: nowrap;
+    font-size: 12em;
+    line-height: 220px;
+    overflow: hidden;
+    font-family:'Times New Roman';
+    animation: animate 7s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: translate(0, -50%);
+    }
+    100%
+    {
+        transform: translate(-50%, -50%);
+    }
+}
