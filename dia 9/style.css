@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  width: 90px;
+  height: 90px;
+  margin: 100px auto;
+  position: relative;
+}
+.menu label {
+  width: 100%;
+  height: 100%;
+  background: #069;
+  position: absolute;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  z-index: 1;
+  
+}
+#check {
+  position: absolute;
+  display: none;
+  
+}
+span {
+  width: 60px;
+  height: 8px;
+  top: 40px;
+  left: 14px;
+  position: absolute;
+  background: #fff;
+  transition: all 0.3s linear;
+  z-index: 1;
+}
+span::before {
+  content: "";
+  width: 60px;
+  bottom: -20px;
+  height: 8px;
+  position: absolute;
+  background: #fff;
+  transition: all 0.3s linear;
+  
+ 
+}
+span::after {
+  content: "";
+  width: 60px;
+  top: -20px;
+  height: 8px;
+  position: absolute;
+  background: #fff;
+  transition: all 0.3s linear;
+  
+}
+#check:checked ~ span {
+  background: transparent;
+  
+}
+#check:checked ~ span::before {
+  transform: translate(0px, -20px) rotate(-45deg);
+}
+#check:checked ~ span::after {
+  transform: translate(0px, 20px) rotate(45deg);
+}
+#check:checked ~ label {
+  border-radius: 50%;
+}
+.link {
+  position: absolute;
+  margin: 15px 17px;;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  transition: all 0.1s ease-out;
+  
+}
+#check:checked ~ a #link_01{
+    transform: translateY(-95px);
+}
+#check:checked ~ a #link_02{
+    transform: translateX(95px);
+    transition-delay: .1s;
+}
+#check:checked ~ a #link_03{
+    transform: translateY(95px);
+    transition-delay: .2s;
+}
+#check:checked ~ a #link_04{
+    transform: translateX(-95px);
+    transition-delay: .3s;
+}
