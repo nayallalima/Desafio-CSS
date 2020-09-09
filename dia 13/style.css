@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url(pexels-photo-4588428.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0 0px 265px;
+  color: rgb(96, 10, 235);
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+span::before {
+  content: "";
+  animation: word-swith 2s infinite;
+}
+
+@keyframes word-swith {
+  0% {
+    content: "😁";
+  }
+
+  25% {
+    content: "😲";
+  }
+
+  50% {
+    content: "😎";
+  }
+
+  75% {
+    content: "😷";
+  }
+
+  100% {
+    content: "😩";
+  }
+}
