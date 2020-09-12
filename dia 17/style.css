@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+ul li{
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    width: 10%;
+    height: 100%;
+    background: transparent;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, .2);
+    animation: bgColor infinite linear 5s;
+}
+@keyframes bgColor{
+    0%{
+        background: #ac30e5;
+    }
+    20%{
+        background: #ff00d2;
+    }
+    40%{
+        background: #309fe5;
+    }
+    60%{
+        background: #0aee30;
+    }
+    80%{
+        background: #f5f84a;
+    }
+    100%{
+        background: #e53030;
+    }
+}
+ul li:nth-child(1){
+    animation-delay: .2s;
+    z-index: 10;
+}
+ul li:nth-child(2){
+    animation-delay: .4s;
+    z-index: 9;
+}
+ul li:nth-child(3){
+    animation-delay: .6s;
+    z-index: 8;
+}
+ul li:nth-child(4){
+    animation-delay: .8s;
+    z-index: 7;
+}
+ul li:nth-child(5){
+    animation-delay: 1s;
+    z-index: 6;
+}
+ul li:nth-child(6){
+    animation-delay: 1.2s;
+    z-index: 5;
+}
+ul li:nth-child(7){
+    animation-delay: 1.4s;
+    z-index: 4;
+}
+ul li:nth-child(8){
+    animation-delay: 1.6s;
+    z-index: 3;
+}
+ul li:nth-child(9){
+    animation-delay: 1.8s;
+    z-index: 2;
+}
+ul li:nth-child(10){
+    animation-delay: 2s;
+    z-index: 1;
+}
