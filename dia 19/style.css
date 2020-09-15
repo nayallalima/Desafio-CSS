@@ -1,0 +1,37 @@
+@import url('"https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap"');
+
+.box-with-text {
+  background-image: url(Recife.jpg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: left 0px top 10px;
+    }
+    100%{
+        background-position: left 500px top 10px;
+    }
+}
+body {
+  background-image: url(MarcoZero.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+ width: 100vw;
+  color: #fff;
+}
+.box-with-text {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  white-space: nowrap;
+  background-position: 50% 50%;
+  text-align: center;
+  font: 6vmax/0.85 "Calligraffitti", cursive;
+}
