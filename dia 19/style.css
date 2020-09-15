@@ -1,25 +1,24 @@
 @import url('"https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap"');
 
 .box-with-text {
-  background-image: url(Recife.jpg);
+  background-image: url(img/Recife.jpg);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   animation: animate 10s linear infinite;
 }
-@keyframes animate{
-    0%{
-        background-position: left 0px top 10px;
-    }
-    100%{
-        background-position: left 500px top 10px;
-    }
+@keyframes animate {
+  0% {
+    background-position: left 0px top 10px;
+  }
+  100% {
+    background-position: left 500px top 10px;
+  }
 }
 body {
-  background-image: url(MarcoZero.jpg);
+  background-image: url(img/MarcoZero.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 100vh;
- width: 100vw;
   color: #fff;
 }
 .box-with-text {
