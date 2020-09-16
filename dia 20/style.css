@@ -1,0 +1,47 @@
+@import url(//db.onlinewebfonts.com/c/29f4c6fe36801450398679968448cf3d?family=Super+Mario+Bros.);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/mario.jpg);
+  background-size: 100% 100%;
+}
+.mario img {
+  position: absolute;
+  width: 100px;
+  bottom: 85px;
+  animation: mariorun 6s linear infinite;
+  animation-iteration-count: 5;
+}
+@keyframes mariorun {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 92%;
+  }
+}
+.mario h2 {
+  position: absolute;
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Super Mario Bros.";
+  top: 15%;
+  left: 40%;
+  animation: mariotext 2s linear infinite;
+  
+  animation-delay: 1s;
+}
+@keyframes mariotext {
+  0% {
+    font-size: 1em;
+  }
+  
+  100% {
+    font-size: 3em;
+  }
+}
