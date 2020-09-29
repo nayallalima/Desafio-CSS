@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Peddana', serif;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+.container .section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: start;
+    background-blend-mode: multiply;
+}
+.container .section:nth-child(1){
+    background:rgb(250, 40, 40) url(img/teclado.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container .section:nth-child(2){
+    background:rgb(66, 247, 66) url(img/planta.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container .section:nth-child(3){
+    background:#ff0 url(img/xicara.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container .section:nth-child(4){
+    background:#0ff url(img/mesa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container .section:nth-child(5){
+    background:#00f url(img/digitar.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container .section .content{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    max-width: 700px;
+}
+.container .section .content h2{
+    background: #fff;
+    color: #111;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 2em;
+}
+.container .section .content p{
+    background: #fff;
+    color: #111;
+    font-weight: 300;
+    margin-top: 10px;
+    padding: 10px 20px;
+    
+}
