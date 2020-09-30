@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  animation: day2night 13s linear infinite;
+}
+@keyframes day2night {
+  0% {
+    background: #fff;
+  }
+  10% {
+    background: rgb(248, 248, 84);
+  }
+  50% {
+    background: rgb(56, 247, 247);
+  }
+  
+  90% {
+    background: #070433;
+  }
+  100% {
+    background: #fff;
+  }
+}
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 720px;
+  height: 720px;
+  animation: animate 25s linear infinite;
+}
+.man {
+  width: 50%;
+  height: 2px;
+  background: transparent;
+  position: absolute;
+  top: calc(50% - 1px);
+  transform-origin: right;
+  animation: animateMan 8s linear infinite;
+}
+.man img {
+  transform: rotate(60deg) translateY(15px);
+}
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.8);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg) scale(0.8);
+  }
+}
+@keyframes animateMan {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
