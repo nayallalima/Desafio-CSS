@@ -9,7 +9,7 @@ https://lnkd.in/eAwtciR
 
 dia 1 - Ícones em camadas
 
-![](./Gifs/dia1.gif)
+![](https://drive.google.com/file/d/19Rp0dwluzl_rybXYR3WiZ19mG6G7ZLRe/view?usp=sharing)
 
 dia 2 - Loading animado
 
