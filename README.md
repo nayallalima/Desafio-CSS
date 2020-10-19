@@ -7,70 +7,122 @@ Foi lançado pela Milena Carecho com o objetivo de grande oportunidade de aprend
 Você pode saber mais sobre o desafio aqui:
 https://lnkd.in/eAwtciR
 
-dia 1 - Ícones em camadas
+####dia 1 - Ícones em camadas
 
-![](https://drive.google.com/file/d/19Rp0dwluzl_rybXYR3WiZ19mG6G7ZLRe/view?usp=sharing)
+![](./Gifs/dia1.gif)
 
-dia 2 - Loading animado
+####dia 2 - Loading animado
 
 ![](./Gifs/dia2.gif)
 
-dia 3 - Mudança de cor do texto
+####dia 3 - Mudança de cor do texto
 
 ![](./Gifs/dia3.gif)
 
-dia 4 - Efeito neon do botão
+####dia 4 - Efeito neon do botão
 
 ![](./Gifs/dia4.gif)
 
-dia 5 - Efeito pulsar do ícone
+####dia 5 - Efeito pulsar do ícone
 
-dia 6 - Customização do checkbox
+![](./Gifs/dia5.gif)
 
-dia 7 - Texto revelado com animação de fumaça
+####dia 6 - Customização do checkbox
 
-dia 8 - Galeria de fotos em 3D
+![](./Gifs/dia6.gif)
 
-dia 9 - Animação do ícone "menu hambúrguer"
+####dia 7 - Texto revelado com animação de fumaça
 
-dia 1o - 3D flip card
+![](./Gifs/dia7.gif)
 
-dia 11 - Animação de chuva
+####dia 8 - Galeria de fotos em 3D
 
-dia 12 - Animação de relógio
+![](./Gifs/dia8.gif)
 
-dia 13 - Texto alternativo
+####dia 9 - Animação do ícone "menu hambúrguer"
 
-dia 14 - Preload animado
+![](./Gifs/dia9.gif)
 
-dia 15 - Efeito de retrato
+####dia 1o - 3D flip card
 
-dia 16 - Efeito hover nos cards
+![](./Gifs/dia10.mp4)
 
-dia 17 - Animaão no background colorido
+####dia 11 - Animação de chuva
 
-dia 18 - Grid responsivo
+![](./Gifs/dia11.mp4)
 
-dia 19 - Animação do efeito de clip de background
+####dia 12 - Animação de relógio
 
-dia 20 - Super Mario
+![](./Gifs/dia12.gif)
 
-dia 21 - Efeito hover nas imagens
+####dia 13 - Texto alternativo
 
-dia 22 - Slideshow
+![](./Gifs/dia13.gif)
 
-dia 23 - Barra de progressão circular
+####dia 14 - Preload animado
 
-dia 24 - Login
+![](./Gifs/dia14.gif)
 
-dia 25 - Pesquisa de satisfação
+####dia 15 - Efeito de retrato
 
-dia 26 - Slideshow
+![](./Gifs/dia15.gif)
 
-dia 27 - Hover nos botões
+####dia 16 - Efeito hover nos cards
 
-dia 28 - Scrolling effects
+![](./Gifs/dia16.gif)
 
-dia 29 - Volta ao mundo
+####dia 17 - Animação no background colorido
 
-dia 30 - Fogos de artifício
+![](./Gifs/dia17.gif)
+
+####dia 18 - Grid responsivo
+
+![](./Gifs/dia18.gif)
+
+####dia 19 - Animação do efeito de clip de background
+
+![](./Gifs/dia19.gif)
+
+####dia 20 - Super Mario
+
+![](./Gifs/dia20.gif)
+
+####dia 21 - Efeito hover nas imagens
+
+![](./Gifs/dia21.mp4)
+
+####dia 22 - Slideshow
+
+![](./Gifs/dia22.mp4)
+
+####dia 23 - Barra de progressão circular
+
+![](./Gifs/dia23.gif)
+
+####dia 24 - Login
+
+![](./Gifs/dia24.gif)
+
+####dia 25 - Pesquisa de satisfação
+
+![](./Gifs/dia25.gif)
+
+####dia 26 - Slideshow
+
+![](./Gifs/dia26.gif)
+
+####dia 27 - Hover nos botões
+
+![](./Gifs/dia27.gif)
+
+####dia 28 - Scrolling effects
+
+![](./Gifs/dia28.gif)
+
+####dia 29 - Volta ao mundo
+
+![](./Gifs/dia29.gif)
+
+####dia 30 - Fogos de artifício
+
+![](./Gifs/dia30.gif)
