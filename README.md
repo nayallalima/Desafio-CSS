@@ -9,15 +9,19 @@ https://lnkd.in/eAwtciR
 
 dia 1 - Ícones em camadas
 
-![](./Gifs/dia 1 - icones em camadas.gif)
+![](./Gifs/dia1.gif)
 
 dia 2 - Loading animado
 
-<img src=".Gifs/dia 2- loading animado.gif">
+![](./Gifs/dia2.gif)
 
 dia 3 - Mudança de cor do texto
 
+![](./Gifs/dia3.gif)
+
 dia 4 - Efeito neon do botão
+
+![](./Gifs/dia4.gif)
 
 dia 5 - Efeito pulsar do ícone
 
